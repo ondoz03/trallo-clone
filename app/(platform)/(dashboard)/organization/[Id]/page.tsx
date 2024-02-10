@@ -1,12 +1,8 @@
-import { auth } from "@clerk/nextjs";
 
 const OrganizationIdPage = () => {
-
-    const {userId, orgId} = auth();
-
     return (
         <div>
-        <h1>OrganizationIdPage {orgId}</h1>
+            <h1>OrganizationIdPage</h1>
         </div>
     );
 }
