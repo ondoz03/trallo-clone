@@ -1,4 +1,3 @@
-import { ClerkProvider } from "@clerk/nextjs";
 import { Navbar } from "./_components/navbar";
 
 const DashboardOrganizationLayout = ({
